@@ -31,6 +31,7 @@ const Midbar = () => {
 					</select>
 				</div>
 				<div>
+					<label className="ml-[1rem]">Do not include : </label>
 					<select
 						className="rounded-md cursor-pointer p-[0.3rem]"
 						name="notInclude"
