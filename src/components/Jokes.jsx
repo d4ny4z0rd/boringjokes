@@ -13,7 +13,7 @@ const Jokes = () => {
 						return (
 							<div
 								key={index}
-								className="p-[1rem] text-xl shadow-lg flex flex-col rounded-lg bg-gray-50">
+								className="sm:p-[1rem] p-[0.5rem] text-xl shadow-lg flex flex-col rounded-lg bg-gray-50">
 								{joke?.setup ? (
 									<div>
 										<div className="text-gray-500">{joke?.setup}</div>
