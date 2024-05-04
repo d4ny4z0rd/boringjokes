@@ -37,6 +37,7 @@ const Midbar = () => {
 						name="notInclude"
 						value={notInclude}
 						onChange={(e) => setNotInclude(e.target.value)}>
+						<option value="">None</option>
 						<option value="nsfw">Not Safe for Work</option>
 						<option value="religious">Religious</option>
 						<option value="political">Political</option>
